@@ -1,1 +1,53 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgba(22, 106, 22, 0.91);
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  box-shadow: 7px 7px 12px;
+  border: 1px solid white;
+}
+.♦,
+.♥ {
+  color: red;
+}
+.♠,
+.♣ {
+  color: black;
+}
+ {
+  color: bisque;
+}
+.rotate {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+}
+h1 {
+  font-size: 100px;
+}
+p {
+  font-size: 100px;
+}
+button {
+  border-radius: 50%;
+  border: 3px solid black;
+  background-color: white;
+  color: red;
+  width: 200px;
+  height: 60px;
+}
+.button:hover {
+  border-radius: 10%;
+  background-color: red;
+  color: black;
+}
+.button {
+  transition-duration: 0.4s;
+}
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
